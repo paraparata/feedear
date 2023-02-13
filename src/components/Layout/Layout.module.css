@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 1.5rem 4rem;
+  color: #0f0f0f;
+  background: white;
+  box-shadow: 0 2px 4px var(--sc-nightpurp);
+}
+.header ul {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+.header li {
+  list-style: none;
+}
+
+.main {
+  margin-top: calc(65px + 50px);
+  padding: 0 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    color: white;
+    background-color: var(--sc-night);
+    /* background-color: #161616; */
+  }
+}

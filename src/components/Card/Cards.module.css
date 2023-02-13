@@ -1,0 +1,32 @@
+.glow {
+  padding: 1.25rem 1.75rem;
+  background: white;
+  border-top: 4px solid #fdba74;
+  border-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  box-shadow: var(--shadow-normal);
+}
+/* .glow:hover {
+  transform: scale(1.0035);
+} */
+
+.retro {
+  width: fit-content;
+  padding: 4px;
+  color: #2f2d2e;
+  border: thick solid #2f2d2e;
+  font-size: 2rem;
+}
+.retro:hover {
+  position: relative;
+  bottom: 4px;
+  right: 8px;
+  color: #2f2d2e;
+  background: #f18f01;
+  box-shadow: 8px 4px 0 0 #2f2d2e;
+}
+
+.link[aria-disabled="true"] {
+  pointer-events: none;
+  opacity: 0.4;
+}
