@@ -1,0 +1,9 @@
+.root {
+  padding: 2rem 0;
+  background: #2c381e2d;
+  border: thin solid #9ece6a2d;
+}
+.root:hover {
+  background: #2c381e8c;
+  outline: thin solid var(--sc-tosca);
+}

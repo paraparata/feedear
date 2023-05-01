@@ -1,3 +1,4 @@
+import AddFeedBtn from './AddFeedBtn';
 import Layout from '@components/Layout';
 
 import { FeedView } from '@components/Feeds';
@@ -50,6 +51,7 @@ const FeedById: React.FC<FeedByIdProps> = ({ id }) => {
         {feeds.map((feed, index) => (
           <FeedViewWrapper key={index} data={feed} />
         ))}
+        <AddFeedBtn />
       </div>
     </Layout>
   );

@@ -13,8 +13,6 @@
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
     "immer": "^9.0.21",
-    "jotai": "^2.0.3",
-    "jotai-immer": "^0.2.0",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
